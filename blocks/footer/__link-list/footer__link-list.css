@@ -1,12 +1,12 @@
 .footer__link-list {
-  margin: 0 14px 0 0;
+  margin: 0 18px 0 0;
 }
 
 .footer__link-list:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer__link-list {
     margin-right: 0;
     margin-bottom: 32px;
