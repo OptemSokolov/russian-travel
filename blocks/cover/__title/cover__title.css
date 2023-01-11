@@ -10,15 +10,15 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 505px) {
+@media screen and (max-width: 560px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
-    line-height: 1.09;
+    line-height: 36px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__title {
     margin-top: 33px;
     margin-bottom: 16px;
