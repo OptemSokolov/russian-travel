@@ -1,23 +1,29 @@
 .cover {
-  margin: 92px auto;
-  max-width: calc(100% - 2 * 48px);
+  display: flex;
+  position: relative;
+  justify-content: center;
+  max-width: 1184px;
+  width: 92.5%;
+  margin: 0 auto;
+  padding-top: 92px;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 100%;
-    margin: 92px auto;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    margin: 90px auto 88px;
+    padding-top: 90px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
   .cover {
-    margin: 66px auto 64px;
+    padding-top: 66px;
   }
 }
